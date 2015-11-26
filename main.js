@@ -27,12 +27,12 @@ var d = cityLib.howManyBooksRentable();
 console.log(d + ' books rentable.');
 
 
-for (var x in cityLib){
-  console.log(x);
-}
+// for (var x in cityLib){
+//   console.log(x);
+// }
 
-console.log('==========');
+// console.log('==========');
 
-for (var y in cityLib.books[0]){
-  console.log(y);
-}
+// for (var y in cityLib.books[0]){
+//   console.log(y);
+// }
