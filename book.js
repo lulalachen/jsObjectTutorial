@@ -5,10 +5,6 @@ function Book (name, ISBN, publisher){
   this.isRented = false;
 }
 
-Book.prototype.rename = function(newName) {
-  this.name = newName;
-};
-
 Book.prototype.rent = function() {
   if (this.isRented === true){
     return false; // Already rent
