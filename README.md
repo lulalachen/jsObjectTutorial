@@ -10,13 +10,13 @@
   name, location, books;
 
   __[ Methods ]__
-  newBook(bookname, ISBN, publisher), \\
-  howManyBooks(), \\
-  howManyBooksRentable(), \\
-  rentBook(ISBN), \\
-  removeBook(ISBN), \\
-  setLocation(location), \\
-  getLocation();
+  - newBook(bookname, ISBN, publisher)
+  - howManyBooks()
+  - howManyBooksRentable()
+  - rentBook(ISBN)
+  - removeBook(ISBN)
+  - setLocation(location)
+  - getLocation()
 
 ### Books
 
@@ -24,6 +24,6 @@
   name, ISBN, publisher;
 
   __[ Methods ]__
-  isRented(), \\
-  rent(), \\
-  rentable();
+  - isRented()
+  - rent()
+  - rentable()
